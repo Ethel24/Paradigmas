@@ -21,7 +21,7 @@ Y = dato[:,4]
 loo = LeaveOneOut()
 
 #calculamos que valor de k es mejor para el clasificador
-ks = 10 #vamos a evaluar hasta k = 20
+ks = 20 #vamos a evaluar hasta k = 20
 media_precision = np.zeros(ks) #vector que almacena la media de precision de los disntintos k
 
 #n iterara hasta ks-1
